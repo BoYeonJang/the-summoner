@@ -8,15 +8,23 @@
       class="bg-gray-900 w-6/12 shadow-3xl rounded-xl p-5"
       style="height: 30rem"
     >
-      <div class="output">{{ content }}</div>
-      <div class="input"><input /></div>
+      <div id="output" class="">{{ content }}</div>
+      <div id="input" class="">
+        <ChevronRightIcon class="h-6 w-6 text-blue-500" />
+        <input class="w-full bg-transparent" />
+      </div>
     </div>
   </div>
 </template>
 
 <script>
+import { ChevronRightIcon } from "@heroicons/vue/solid"; // 입력창 화살표
+
 export default {
   name: "Terminal",
+  components: {
+    ChevronRightIcon,
+  },
   props: {
     // msg: String,
   },
