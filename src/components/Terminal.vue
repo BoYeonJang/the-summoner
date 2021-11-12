@@ -8,7 +8,7 @@
       class="bg-gray-900 w-6/12 shadow-3xl rounded-xl p-5"
       style="height: 30rem"
     >
-      <div id="output" class="">{{ content }}</div>
+      <div id="output" class="" style="height: 26rem">{{ content }}</div>
       <div id="input" class="flex">
         <ChevronRightIcon class="h-6 w-6 text-yellow-300" />
         <input class="w-full bg-transparent outline-none ml-1" />
