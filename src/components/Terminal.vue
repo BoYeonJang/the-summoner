@@ -9,9 +9,9 @@
       style="height: 30rem"
     >
       <div id="output" class="">{{ content }}</div>
-      <div id="input" class="">
-        <ChevronRightIcon class="h-6 w-6 text-blue-500" />
-        <input class="w-full bg-transparent" />
+      <div id="input" class="flex">
+        <ChevronRightIcon class="h-6 w-6 text-yellow-300" />
+        <input class="w-full bg-transparent outline-none ml-1" />
       </div>
     </div>
   </div>
