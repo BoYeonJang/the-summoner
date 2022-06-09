@@ -57,4 +57,4 @@ src
 
 ## 🛎 Learn more
 
-[버그 제보](https://github.com/BoYeonJang/the-summoner/issues/new)
+[버그 제보](https://github.com/BoYeonJang/the-summoner/issues/new?assignees=BoYeonJang&labels=bug&template=bug_report.md&title=)
