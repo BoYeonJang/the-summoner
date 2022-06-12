@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div className='bg-slate-300 w-screen h-screen'>
-      <Screen className='top-40' />
+      <Screen />
     </div>
   )
 }

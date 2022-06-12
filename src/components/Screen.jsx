@@ -4,8 +4,11 @@ function Screen() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className='bg-slate-800 rounded-2xl drop-shadow-4xl text-white box-border w-96 h-96 p-4 '>
-      <h1>the</h1>
+    // 화면 중앙 정렬
+    <div className='flex justify-center items-center h-screen'>
+        <div className='bg-slate-800 rounded-2xl drop-shadow-4xl text-white box-border w-1/2 h-2/3 p-4'>
+            <h1>the</h1>
+        </div>
     </div>
   )
 }
