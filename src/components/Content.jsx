@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-function Topbar() {
+function Content() {
 	const [count, setCount] = useState(0)
 
 	return (
@@ -8,8 +8,11 @@ function Topbar() {
       <div>
         <h1>asdjfkdlsajflkas</h1>
       </div>
+      <div className=''>
+        <p>&gt;</p>
+      </div>
 		</div>
 	)
 }
 
-export default Topbar
+export default Content
